@@ -1,5 +1,4 @@
 # https://www.youtube.com/watch?v=nKxLfUrkLE8
-
 import numpy as np
 from matplotlib import pyplot as plt
 
@@ -16,9 +15,9 @@ plt.bar(x_indexes, js_dev_y, width=width, label="JavaScript", linewidth=2, color
 all_dev_y = [17784, 16500, 18012, 20628, 25206, 30252, 34368, 38496, 42000, 46752, 49320, 53200, 56000, 62316, 64928, 67317, 68748, 73752, 77232, 78000, 78508, 79536, 82488, 88935, 90000, 90056, 95000, 90000, 91633, 91660, 98150, 98964, 100000, 98988, 100000, 108923, 105000, 103117]
 plt.bar(x_indexes + width, all_dev_y, width=width, label="All", color="#444444")
 
+plt.title("Median salary (USD) by age")
 plt.xlabel("Age")
 plt.ylabel("Median salary (USD)")
-plt.title("Median salary (USD) by age")
 plt.legend()
 plt.xticks(ticks=x_indexes, labels=ages_x)
 plt.style.use('fivethirtyeight')
