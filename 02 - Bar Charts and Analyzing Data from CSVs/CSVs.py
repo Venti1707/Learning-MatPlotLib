@@ -1,7 +1,6 @@
 # https://www.youtube.com/watch?v=nKxLfUrkLE8
 
 import csv
-import numpy as np
 from collections import Counter
 from matplotlib import pyplot as plt
 
