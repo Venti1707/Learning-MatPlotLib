@@ -19,3 +19,8 @@ dev_y = [17784, 16500, 18012, 20628, 25206, 30252, 34368, 38496, 42000, 46752, 4
 # Languages and users
 languages = ['JavaScript', 'HTML/CSS', 'SQL', 'Python', 'Java', 'Bash/Shell/PowerShell', 'C#', 'PHP', 'C++', 'TypeScript', 'C', 'Other(s):', 'Ruby', 'Go', 'Assembly', 'Swift', 'Kotlin', 'R', 'VBA', 'Objective-C', 'Scala', 'Rust', 'Dart', 'Elixir', 'Clojure', 'WebAssembly', 'F#', 'Erlang']
 users = [59219, 55466, 47544, 36443, 35917, 31991, 27097, 23030, 20524, 18523, 18017, 7920, 7331, 7201, 5833, 5744, 5620, 5048, 4781, 4191, 3309, 2794, 1683, 1260, 1254, 1015, 973, 777]
+
+# For stack plots
+player1 = [8, 6, 5, 5, 4, 2, 1, 1, 0]
+player2 = [0, 1, 2, 2, 2, 4, 4, 4, 4]
+player3 = [0, 1, 1, 1, 2, 2, 3, 3, 4]
