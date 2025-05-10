@@ -1,5 +1,4 @@
 # https://www.youtube.com/watch?v=MPiz50TsyF0
-
 from matplotlib import pyplot as plt
 
 languages = ['JavaScript', 'HTML/CSS', 'SQL', 'Python', 'Java']
