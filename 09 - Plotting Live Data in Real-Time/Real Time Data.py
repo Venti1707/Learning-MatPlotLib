@@ -23,8 +23,8 @@ def animate(i):
 
 ani = FuncAnimation(plt.gcf(), animate, interval=1000)
 
-plt.title("Real time data")
 plt.xlabel("Time")
 plt.ylabel("Subscribers")
+plt.title("Real time data")
 plt.style.use('fivethirtyeight')
 plt.show()
