@@ -15,9 +15,9 @@ plt.bar(x_indexes, js_dev_y, width=width, label="JavaScript", linewidth=2, color
 all_dev_y = [17784, 16500, 18012, 20628, 25206]
 plt.bar(x_indexes + width, all_dev_y, width=width, label="All", color="#444444")
 
-plt.title("Median salary (USD) by age")
 plt.xlabel("Age")
 plt.ylabel("Median salary (USD)")
+plt.title("Median salary (USD) by age")
 plt.legend()
 plt.xticks(ticks=x_indexes, labels=ages_x)
 plt.style.use('fivethirtyeight')
