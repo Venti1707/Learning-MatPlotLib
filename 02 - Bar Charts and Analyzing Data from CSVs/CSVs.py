@@ -1,5 +1,4 @@
 # https://www.youtube.com/watch?v=nKxLfUrkLE8
-
 import csv
 from collections import Counter
 from matplotlib import pyplot as plt
@@ -24,5 +23,6 @@ plt.barh(languages, users)
 plt.title("Most popular programming languages")
 plt.xlabel("Users")
 plt.style.use('fivethirtyeight')
+plt.tight_layout()
 plt.savefig("C:/OtherProjects/Learning-MatPlotLib/02 - Bar Charts and Analyzing Data from CSVs/CSVs.png")
 plt.show()
