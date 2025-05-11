@@ -12,9 +12,9 @@ median_age = 29
 plt.hist(age, bins=bins, edgecolor="black", log=True)
 plt.axvline(median_age, color="red", label="Median age")
 
-plt.title("Age of respondents")
 plt.xlabel("Ages")
 plt.ylabel("Total respondents")
+plt.title("Age of respondents")
 plt.legend()
 plt.style.use('fivethirtyeight')
 plt.tight_layout()
