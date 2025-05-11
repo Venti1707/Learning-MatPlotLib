@@ -9,5 +9,6 @@ plt.pie(users, labels=languages, explode=explode, wedgeprops={"edgecolor": "blac
 
 plt.title("Top 5 most used programming languages")
 plt.style.use('fivethirtyeight')
+plt.tight_layout()
 plt.savefig("C:/OtherProjects/Learning-MatPlotLib/03 - Pie Charts/Pie Charts.png")
 plt.show()
